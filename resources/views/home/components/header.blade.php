@@ -30,8 +30,29 @@
                 </div>
             </main>
             <div class="relative lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <img class="w-full opacity-50" src="{{asset('/images/logo/openoverlay-icon.svg')}}"
+                <img class="w-4/5 opacity-50 block ml-auto mr-0 mt-7"
+                     src="{{asset('/images/logo/openoverlay-icon.svg')}}"
                      alt="openoverlay icon">
+                <div class="bg-white rounded-xl px-6 py-4 absolute top-0 left-10 shadow-2xl min-w-72">
+                    <div class="font-extrabold text-3xl">Lethinium</div>
+                    <div class="text-flamingo-800">Redeemed <span class="font-extrabold">Highlight My Message</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl px-6 py-4 absolute top-1/3 right-1 shadow-2xl">
+                    <div class="flex pb-3">
+                        <div class="ml-0 mr-auto text-gray-500 font-extrabold">Follower Goal</div>
+                        <div class="ml-auto mr-0 text-flamingo-800 font-extrabold">55%</div>
+                    </div>
+                    <div class="bg-gray-300 h-12 w-72 rounded-xl overflow-hidden">
+                        <div class="bg-flamingo-800 w-4/6 h-full"></div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl px-6 py-4 absolute bottom-10 left-0 shadow-2xl w-72">
+                    <div class="text-flamingo-800">Latest Follower</div>
+                    <div class="font-extrabold text-3xl">moVRs</div>
+                </div>
             </div>
         </div>
     </div>
