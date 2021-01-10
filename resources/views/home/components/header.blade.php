@@ -1,8 +1,8 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative overflow-hidden mt-10">
     <div class="max-w-7xl mx-auto">
-        <div class="flex">
-            <main class="my-auto max-w-full w-4/6 px-4 sm:px-6 lg:px-8">
+        <div class="md:flex">
+            <main class="my-auto md:w-1/2 w-full px-4 sm:px-6 lg:px-8">
                 <div class="sm:text-center lg:text-left">
                     <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
                         Self manage Twitch Overlay & Bot Management.
@@ -29,8 +29,8 @@
                     </div>
                 </div>
             </main>
-            <div class="relative lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <img class="w-4/5 opacity-50 block ml-auto mr-0 mt-7"
+            <div class="relative w-full lg:inset-y-0 lg:right-0 lg:w-1/2">
+                <img class="w-4/5 opacity-0 md:opacity-50 block ml-auto mr-0 mt-7"
                      src="{{asset('/images/logo/openoverlay-icon.svg')}}"
                      alt="openoverlay icon">
                 <div class="bg-white rounded-xl px-6 py-4 absolute top-0 left-10 shadow-2xl min-w-72">
