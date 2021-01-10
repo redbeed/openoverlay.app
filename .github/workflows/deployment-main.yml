@@ -1,0 +1,26 @@
+name: deploy main
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true || github.event_name == 'push'
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd /www/htdocs/w01b6e9f/openoverlay.app/
+            git clean -fd
+            git reset --hard HEAD
+            git pull origin main
+            php74 composer.phar install --ignore-platform-reqs
+            php74 artisan config:clear
+            php74 artisan cache:clear
