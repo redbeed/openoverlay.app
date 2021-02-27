@@ -26,7 +26,7 @@ return [
     'how-to' => [
         'overlay' => [
             'title' => '<span class="text-gray-900 text-3xl md:text-2xl block" data-aos="fade-up" data-aos-delay="500">How it works?</span> Overlay.',
-            'description' => 'OpenOverlay gives you the possibilities that you need to build a high-end overlay for you or your customer\'s stream. You can develop, deploy and manage the overlay as a normal project. You don\'t have to deal with unstable browser editors anymore, use your IDE.'
+            'description' => 'OpenOverlay gives you the possibilities you need to build a high-end overlay for you or your customer\'s stream. You can develop, deploy and manage the overlay as a normal project. You don\'t have to deal with unstable browser editors anymore, just use your IDE.'
         ],
         'bot' => [
             'title' => '<span class="text-gray-900 text-3xl md:text-2xl block" data-aos="fade-up" data-aos-delay="500">How it works?</span> Bot.',
