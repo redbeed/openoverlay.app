@@ -7,6 +7,7 @@ use Illuminate\View\Component;
 class FrontpageTeaser extends Component
 {
     private string $translationKey = '';
+    private string $fadeDelay = '';
 
     private array $icons = [
         'overlay' => 'fas fa-object-group',
@@ -15,9 +16,10 @@ class FrontpageTeaser extends Component
     ];
 
 
-    public function __construct(string $translationKey)
+    public function __construct(string $translationKey, int $fadeDelay = 0)
     {
         $this->translationKey = $translationKey;
+        $this->fadeDelay = $fadeDelay;
     }
 
     /**
@@ -29,6 +31,7 @@ class FrontpageTeaser extends Component
     {
         return view('home.components.frontpage-teaser', [
             'translationKey' => $this->translationKey,
+            'fadeDelay' => $this->fadeDelay,
             'icon' => $this->icons[$this->translationKey] ?? 'fas fa-icons',
         ]);
     }

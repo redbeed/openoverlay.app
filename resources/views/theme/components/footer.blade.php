@@ -1,7 +1,22 @@
 <section class="bg-flamingo-900 text-white border-t-8 border-flamingo-200 py-8 w-full mt-12">
     <div class="container mx-auto px-8 text-center">
-        <a href="https://www.redbeed.com">
-            Made with <span class="text-xl ml-2"><i class="fa fa-user-astronaut"></i><i class="fa fa-heart"></i></span> <span class="text-xl mx-3">//</span>Imprint
-        </a>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-7">
+            <a href="https://www.redbeed.com" target="redbeed">
+                Made with <i class="fa fa-heart"></i>
+            </a>
+
+            <a href="https://www.redbeed.com/imprint" target="redbeed">
+                Imprint.
+            </a>
+
+            <a href="https://discord.gg/PMjuRxbsBV" target="_blank">
+                Discord.
+            </a>
+
+            <a href="https://github.com/redbeed/openoverlay" target="_blank">
+                GitHub.
+            </a>
+        </div>
     </div>
 </section>
