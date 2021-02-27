@@ -25,7 +25,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 new _components_Nabvar__WEBPACK_IMPORTED_MODULE_0__.default();
-aos__WEBPACK_IMPORTED_MODULE_1__.init();
+aos__WEBPACK_IMPORTED_MODULE_1___default().init({
+  easing: 'ease-in-out',
+  duration: 500,
+  once: true
+});
 
 /***/ }),
 

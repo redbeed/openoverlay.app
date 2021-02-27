@@ -1,5 +1,10 @@
 import Nabvar from "./components/Nabvar";
-import * as AOS from "aos"
+import AOS from 'aos';
 
 new Nabvar();
-AOS.init();
+
+AOS.init({
+    easing: 'ease-in-out',
+    duration: 500,
+    once: true,
+});
