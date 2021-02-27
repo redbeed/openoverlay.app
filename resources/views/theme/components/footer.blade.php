@@ -1,6 +1,5 @@
 <section class="bg-flamingo-900 text-white border-t-8 border-flamingo-200 py-8 w-full mt-12">
     <div class="container mx-auto px-8 text-center">
-
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-7">
             <a href="https://www.redbeed.com" target="redbeed">
                 Made with <i class="fa fa-heart"></i>
