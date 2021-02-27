@@ -10,7 +10,6 @@
             <x-frontpage-teaser translation-key="bot" fade-delay="2200"></x-frontpage-teaser>
 
             <x-frontpage-teaser translation-key="endless" fade-delay="2400"></x-frontpage-teaser>
-
         </div>
     </div>
 
