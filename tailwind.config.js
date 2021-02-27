@@ -7,6 +7,22 @@ module.exports = {
     ],
     darkMode: false, // or 'media' or 'class'
     theme: {
+        container: (theme) => ({
+            center: true,
+            padding: {
+                DEFAULT: '1rem',
+                sm: '2rem',
+                lg: '4rem',
+                xl: '5rem',
+                '2xl': '6rem',
+            },
+            screens: {
+                sm: "100%",
+                md: "100%",
+                lg: "1100px",
+                xl: "1280px"
+            }
+        }),
         extend: {
             colors: {
                 flamingo: {

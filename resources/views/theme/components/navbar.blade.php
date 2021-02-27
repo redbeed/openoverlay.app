@@ -26,30 +26,7 @@
                     <img class="hidden lg:block h-9 w-auto" src="{{ asset('images/logo/openoverlay-font.svg') }}"
                          alt="OpenOverlay Logo">
                 </div>
-                <div class="hidden sm:block mr-0 ml-auto">
-                    <div class="flex space-x-4">
-                        <a href="https://github.com/redbeed/OpenOverlay/blob/main/README.md"
-                           class="w-full whitespace-nowrap flex items-center justify-center px-4 py-3 border-2 border-flamingo-800 text-base font-medium rounded-xl text-flamingo-800 bg-white hover:bg-flamingo-800 hover:text-white md:py-3 md:text-lg md:px-6">
-                            Get started
-                        </a>
-                        <a href="https://github.com/redbeed/openoverlay"
-                           class="w-full whitespace-nowrap flex items-center justify-center px-4 py-3 border-2 border-flamingo-800 text-base font-medium rounded-xl text-white bg-flamingo-800 hover:bg-white hover:text-flamingo-800 md:py-3 md:text-lg md:px-6">
-                            Source Code
-                        </a>
-                    </div>
-                </div>
             </div>
-        </div>
-    </div>
-
-    <div id="navbar-mobile-menu" class="hidden sm:hidden">
-        <div class="px-2 pt-2 pb-3 space-y-1">
-            <a href="https://github.com/redbeed/OpenOverlay/blob/main/README.md" target="github"
-               class="text-black hover:bg-flamingo-800 hover:text-white block px-3 py-2 rounded-xl text-base font-medium">Get
-                Started</a>
-            <a href="https://github.com/redbeed/openoverlay" target="github"
-               class="text-flamingo-800 hover:bg-flamingo-800 hover:text-white block px-3 py-2 rounded-xl text-base font-medium">Source
-                Code</a>
         </div>
     </div>
 </nav>
