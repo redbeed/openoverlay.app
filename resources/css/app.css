@@ -9,4 +9,8 @@
 
 @import "~aos/dist/aos.css";
 
+@import "~highlight.js/styles/tomorrow-night-bright.css";
+
 @import "components/button.css";
+@import "components/hljs_extend.css";
+@import "components/docs.css";

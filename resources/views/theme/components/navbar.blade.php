@@ -20,12 +20,12 @@
                 </button>
             </div>
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div class="flex-shrink-0 flex items-center">
+                <a class="flex-shrink-0 flex items-center" href="{{ route('home') }}">
                     <img class="block lg:hidden h-12 w-auto" src="{{ asset('images/logo/openoverlay-icon.svg') }}"
                          alt="OpenOverlay Icon">
                     <img class="hidden lg:block h-9 w-auto" src="{{ asset('images/logo/openoverlay-font.svg') }}"
                          alt="OpenOverlay Logo">
-                </div>
+                </a>
             </div>
         </div>
     </div>
