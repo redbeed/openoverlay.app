@@ -1,0 +1,5 @@
+.hljs {
+    @apply rounded-xl;
+    @apply px-4 py-3;
+    @apply mt-2 mb-4;
+}

@@ -17,14 +17,19 @@
                             {{ $text }}
                         </p>
                     @endforeach
-                    <div class="grid grid-flow-col auto-cols-max gap-4 mt-7">
-                        <a href="https://github.com/redbeed/openoverlay" class="btn-lg btn-flamingo"
+                    <div class="grid grid-cols-3 auto-cols-max gap-4 mt-7">
+                        <a href="{{ route('docs', ['docFile' => 'installation_standalone']) }}" class="btn-lg btn-flamingo col-span-2"
                            data-aos="fade" data-aos-delay="900">
-                            <i class="fab fa-fw fa-github mr-1"></i> Source Code
+                            <i class="fab fa-fw fa-github mr-1"></i> Get Started
                         </a>
                         <a href="https://discord.gg/PMjuRxbsBV" target="_blank" class="btn-lg btn-denim"
                            data-aos="fade" data-aos-delay="1200">
                             <i class="fab fa-fw fa-discord mr-1"></i> Discord
+                        </a>
+
+                        <a href="https://github.com/redbeed/openoverlay" class="btn btn-outline-flamingo col-span-3"
+                           data-aos="fade" data-aos-delay="900">
+                            <i class="fab fa-fw fa-github mr-1"></i> Source Code
                         </a>
                     </div>
                 </div>

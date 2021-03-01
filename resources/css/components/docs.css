@@ -1,0 +1,19 @@
+.docs h1 {
+    @apply text-2xl md:text-3xl;
+    @apply font-bold;
+    @apply mb-12;
+}
+
+
+.docs ol {
+    @apply list-none;
+    @apply md:list-decimal md:list-inside;
+}
+
+.docs ol li {
+    @apply mb-3;
+}
+
+.docs ol p {
+    @apply inline-block;
+}

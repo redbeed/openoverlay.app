@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DocsController;
 use App\Http\Controllers\HomeController;
 
 use Illuminate\Support\Facades\Route;
@@ -15,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/')->uses(HomeController::class);
+Route::get('/', HomeController::class)->name('home');
+Route::get('/docs/{docFile}', DocsController::class)->name('docs');
