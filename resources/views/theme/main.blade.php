@@ -18,7 +18,7 @@
     <!-- Bootstrap CSS -->
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
-    <title>OpenOverlay - Self manage Twitch Overlay & Bot</title>
+    <title>OpenOverlay - @yield('title', 'Self manage Twitch Overlay & Bot')</title>
 </head>
 <body class="bg-gray-50">
 @include('theme.components.navbar')

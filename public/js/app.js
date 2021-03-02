@@ -30,6 +30,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var highlight_js_lib_languages_bash__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_bash__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var highlight_js_lib_languages_php__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! highlight.js/lib/languages/php */ "./node_modules/highlight.js/lib/languages/php.js");
 /* harmony import */ var highlight_js_lib_languages_php__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_php__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var highlight_js_lib_languages_ini__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! highlight.js/lib/languages/ini */ "./node_modules/highlight.js/lib/languages/ini.js");
+/* harmony import */ var highlight_js_lib_languages_ini__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_ini__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var highlight_js_lib_languages_shell__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! highlight.js/lib/languages/shell */ "./node_modules/highlight.js/lib/languages/shell.js");
+/* harmony import */ var highlight_js_lib_languages_shell__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(highlight_js_lib_languages_shell__WEBPACK_IMPORTED_MODULE_7__);
+
+
 
 
 
@@ -39,6 +45,8 @@ __webpack_require__.r(__webpack_exports__);
 highlight_js__WEBPACK_IMPORTED_MODULE_2___default().registerLanguage('bash', (highlight_js_lib_languages_bash__WEBPACK_IMPORTED_MODULE_4___default()));
 highlight_js__WEBPACK_IMPORTED_MODULE_2___default().registerLanguage('javascript', (highlight_js_lib_languages_javascript__WEBPACK_IMPORTED_MODULE_3___default()));
 highlight_js__WEBPACK_IMPORTED_MODULE_2___default().registerLanguage('php', (highlight_js_lib_languages_php__WEBPACK_IMPORTED_MODULE_5___default()));
+highlight_js__WEBPACK_IMPORTED_MODULE_2___default().registerLanguage('dotenv', (highlight_js_lib_languages_ini__WEBPACK_IMPORTED_MODULE_6___default()));
+highlight_js__WEBPACK_IMPORTED_MODULE_2___default().registerLanguage('shell', (highlight_js_lib_languages_shell__WEBPACK_IMPORTED_MODULE_7___default()));
 highlight_js__WEBPACK_IMPORTED_MODULE_2___default().highlightAll();
 new _components_Nabvar__WEBPACK_IMPORTED_MODULE_0__.default();
 aos__WEBPACK_IMPORTED_MODULE_1___default().init({

@@ -1,7 +1,7 @@
 # Add Twitch API connection
 
 To interact with Twitch you need to create an application in twitch developer console.
-
+____
 1. Create a Twitch *Application* in the developer console
    ```bash 
    https://dev.twitch.tv/console/apps
@@ -19,13 +19,13 @@ To interact with Twitch you need to create an application in twitch developer co
 
 3. Copy `Client ID` to `TWITCH_CLIENT_ID`
 
-    ```bash 
+    ```dotenv 
     TWITCH_CLIENT_ID="{Client ID}"
     ```
 
 3. Copy `Client Secret` to `TWITCH_CLIENT_SECRET`
 
-    ```bash 
+    ```dotenv 
     TWITCH_CLIENT_SECRET="{Client Secret}"
     ```
    *Click "New Secret" to generate your first client secret*

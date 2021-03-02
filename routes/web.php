@@ -16,5 +16,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', HomeController::class)->name('home');
-Route::get('/docs/{docFile}', DocsController::class)->name('docs');
+Route::get('/', HomeController::class)
+    ->name('home');
+
+Route::get('/docs/{docFile}', DocsController::class)
+    ->where('docFile', '(.*)')
+    ->name('docs');
