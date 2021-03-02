@@ -24,13 +24,13 @@ ___
 
 3. Copy `Client ID` to `TWITCH_CLIENT_ID`
 
-    ```bash 
+    ```dotenv 
     TWITCH_CLIENT_ID="{Client ID}"
     ```
 
 3. Copy `Client Secret` to `TWITCH_CLIENT_SECRET`
 
-    ```bash 
+    ```dotenv 
     TWITCH_CLIENT_SECRET="{Client Secret}"
     ```
    *Click "New Secret" to generate your first client secret*

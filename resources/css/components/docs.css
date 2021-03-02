@@ -1,19 +1,37 @@
 .docs h1 {
     @apply text-2xl md:text-3xl;
     @apply font-bold;
-    @apply mb-12;
+    @apply mb-6;
 }
 
+.docs hr {
+    @apply mt-4 mb-5;
+}
 
 .docs ol {
     @apply list-none;
-    @apply md:list-decimal md:list-inside;
+    @apply md:list-decimal;
+}
+
+.docs ol ol {
+    @apply list-decimal;
+    @apply ml-3 md:ml-6;
+    @apply mt-4;
 }
 
 .docs ol li {
-    @apply mb-3;
+    @apply mb-10;
+}
+
+.docs ol ol li {
+    @apply mb-7;
 }
 
 .docs ol p {
     @apply inline-block;
+}
+
+.docs ol p + p {
+    @apply block;
+    @apply mt-1;
 }
