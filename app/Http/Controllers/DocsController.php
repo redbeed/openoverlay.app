@@ -12,7 +12,6 @@ class DocsController extends Controller
     {
         $docView = 'docs.' . str_replace('/', '.', $docFile);
         if (view()->exists($docView) === false) {
-            dd($docView);
             abort(404);
         }
 
