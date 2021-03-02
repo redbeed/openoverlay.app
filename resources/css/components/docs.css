@@ -27,11 +27,11 @@
     @apply mb-7;
 }
 
-.docs ol p {
+.docs p {
     @apply inline-block;
 }
 
-.docs ol p + p {
+.docs p + p {
     @apply block;
     @apply mt-1;
 }

@@ -1,5 +1,5 @@
 # Standalone Installation
-
+____
 1. Clone OpenOverlay Standalone
    ```shell
    git clone https://github.com/redbeed/OpenOverlay-Standalone.git

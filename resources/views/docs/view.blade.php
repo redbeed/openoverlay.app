@@ -24,7 +24,7 @@
                 @endforeach
             </div>
 
-            <section class="docs">
+            <section class="docs w-full">
                 @include($docView)
             </section>
         </div>

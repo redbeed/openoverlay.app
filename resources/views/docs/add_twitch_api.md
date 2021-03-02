@@ -1,7 +1,7 @@
 # Add Twitch API connection
 
 To interact with Twitch you need to create an application in twitch developer console.
-
+____
 1. Create a Twitch *Application* in the developer console
    ```bash 
    https://dev.twitch.tv/console/apps
