@@ -1,4 +1,4 @@
-<div class="relative overflow-hidden mt-10">
+<div class="relative overflow-hidden mt-10 overflow-visible">
     <div class="container">
         <div class="flex flex-col md:flex-row">
             <main class="my-auto md:w-1/2 w-full px-4 sm:px-6 lg:px-8 lg:pl-0 order-2 md:order-1">
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </main>
-            <div class="relative w-full lg:inset-y-0 lg:right-0 lg:w-1/2 order-1 md:order-2">
+            <div class="relative w-full lg:inset-y-0 lg:right-0 lg:w-1/2 order-1 md:order-2 overflow-visible">
                 <img class="w-4/5 opacity-0 md:opacity-50 block ml-auto mr-0 mt-7"
                      src="{{asset('/images/logo/openoverlay-icon.svg')}}"
                      alt="openoverlay icon">
