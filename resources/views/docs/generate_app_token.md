@@ -7,30 +7,34 @@ For example to get a profile picture of a Twitch User or to subscribe to the Eve
 
 ___
 
-1. Enable `openoverlay.webhook.twitch.app_token.regenerate`
-   ```bash 
-   https://dev.twitch.tv/console/apps
+1. Enable `openoverlay.webhook.twitch.app_token.regenerate` in `config/openoverlay.php`
+   ```php 
+   <?php
+
+    return [
+        'webhook' => [
+            'twitch' => [
+                'app_token' => [
+                    'regenerate' => true,
    ```
 
-2. Add following redirect URLs to you Twitch Application
+2. Make sure following redirect URL is added to your Twitch Application
 
     ```bash 
-    https://{YOUR_URL}/connection/callback
     https://{YOUR_URL}/connection/app-token/callback
-    https://{YOUR_URL}/connection/bot/callback
     ```
-   *All domains need a valid SSL certificate.*
+   *Domain need a valid SSL certificate.*
 
 
-3. Copy `Client ID` to `TWITCH_CLIENT_ID`
+3. Visit following page of your OpenOverlay system
 
     ```dotenv 
-    TWITCH_CLIENT_ID="{Client ID}"
+    https://{YOUR_URL}/connection/app-token/redirect
     ```
 
-3. Copy `Client Secret` to `TWITCH_CLIENT_SECRET`
+3. Add the given hash to your ``.env`` file
 
     ```dotenv 
-    TWITCH_CLIENT_SECRET="{Client Secret}"
+    OVERLAY_TWITCH_APP_TOKEN={HASH}
     ```
-   *Click "New Secret" to generate your first client secret*
+   *Make sure to copy the full hash*

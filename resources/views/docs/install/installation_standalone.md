@@ -12,12 +12,11 @@ ____
 
 3. Copy `.env.example` to `.env`
 
-   Add a custom passwort for ``DB_PASSWORD`` and ``DB_ROOT_PASSWORD``
-
     ```shell 
     cp .env.example .env
     ```
-
+   
+4. Add a custom password for ``DB_PASSWORD=`` and ``DB_ROOT_PASSWORD=`` in the ``.env`` 
 
 4. Start docker/sail
     ```shell
@@ -30,12 +29,19 @@ ____
    ./vendor/bin/sail artisan key:generate
    ```
 
-6. Migrate Database
+6. Generate Communication Secret
+   ```shell 
+   ./vendor/bin/sail artisan overlay:secret
+   ```
+
+7. Add the secret to your ``.env`` file
+
+8. Migrate Database
    ```shell 
    ./vendor/bin/sail artisan migrate
    ```
 
-6. Create your account
+9. Create your account
    ```bash 
    http://localhost/register
    ```

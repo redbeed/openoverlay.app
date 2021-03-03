@@ -18,7 +18,8 @@
                         </p>
                     @endforeach
                     <div class="grid grid-cols-3 auto-cols-max gap-4 mt-7">
-                        <a href="{{ route('docs', ['docFile' => 'install/installation_standalone']) }}" class="btn-lg btn-flamingo col-span-2"
+                        <a href="{{ route('docs', ['docFile' => 'install/installation_standalone']) }}"
+                           class="btn-lg btn-flamingo col-span-2"
                            data-aos="fade" data-aos-delay="900">
                             <i class="fab fa-fw fa-github mr-1"></i> Get Started
                         </a>
