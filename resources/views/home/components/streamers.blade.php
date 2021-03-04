@@ -35,7 +35,7 @@
                                     Lethinium <i class="fas fa-external-link-alt text-sm inline-block ml-1"></i>
                                 </a>
                             </h3>
-                            <p class="text-sm">Use the basics of OpenOverlay to delivery alerts and notifications.</p>
+                            <p class="text-sm">Use the basics of OpenOverlay to deliver alerts and notifications.</p>
                         </div>
                     </div>
                 </div>
