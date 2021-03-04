@@ -7,7 +7,8 @@
             <div class="flex flex-column items-center">
                 <div>
                     <h2 class="text-3xl tracking-tight font-bold text-flamingo-800 sm:text-4xl md:text-5xl mb-5"
-                        data-aos="fade">
+                        data-aos="fade"
+                        id="overlay">
                         {!! __('home.how-to.overlay.title') !!}
                     </h2>
                     <p data-aos="fade" data-aos-delay="700">{!! __('home.how-to.overlay.description') !!}</p>

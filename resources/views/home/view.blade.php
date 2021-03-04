@@ -3,7 +3,7 @@
 @section('content')
     @include('home.components.header')
 
-    <div class="container my-16">
+    <div class="container my-16" id="teaser">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             <x-frontpage-teaser translation-key="overlay" fade-delay="2000"></x-frontpage-teaser>
 

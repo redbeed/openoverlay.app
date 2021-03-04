@@ -8,7 +8,8 @@
                         {{ __('home.header.subtitle') }}
                     </div>
                     <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-5xl mb-5"
-                        data-aos="fade">
+                        data-aos="fade"
+                        id="header">
                         {{ __('home.header.title') }}
                     </h1>
                     @foreach(__('home.header.description') as $text)

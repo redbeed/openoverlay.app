@@ -3,7 +3,7 @@
         <div class="flex flex-column items-center">
             <div>
                 <h2 class="text-3xl tracking-tight font-bold text-flamingo-800 sm:text-4xl md:text-5xl mb-5"
-                    data-aos="fade">
+                    data-aos="fade" id="examples">
                     {!! __('home.streamers.title') !!}
                 </h2>
                 <p data-aos="fade" data-aos-delay="700" class="mb-4">{!! __('home.streamers.description') !!}</p>
