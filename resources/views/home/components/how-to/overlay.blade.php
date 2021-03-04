@@ -11,6 +11,15 @@
                         {!! __('home.how-to.overlay.title') !!}
                     </h2>
                     <p data-aos="fade" data-aos-delay="700">{!! __('home.how-to.overlay.description') !!}</p>
+                    <h3 class="font-bold mt-4 mb-2 text-gray-500">{!! __('home.how-to.overlay.events.title') !!}</h3>
+                    <p>
+                        @foreach( __('home.how-to.overlay.events.items') as $event)
+                            <span
+                                class="inline-flex items-center justify-center text-sm px-3 py-2 mr-2 mt-2 leading-none text-white bg-gray-500 rounded-full">
+                            {{ $event }}
+                            </span>
+                        @endforeach
+                    </p>
                 </div>
             </div>
         </div>
