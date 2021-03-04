@@ -15,4 +15,5 @@
 
     @include('home.components.how-to.overlay')
     @include('home.components.how-to.bot')
+    @include('home.components.streamers')
 @endsection

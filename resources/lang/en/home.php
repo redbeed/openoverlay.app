@@ -38,5 +38,16 @@ return [
             'title' => '<span class="text-gray-900 text-3xl md:text-2xl block" data-aos="fade-up" data-aos-delay="500">How it works?</span> Bot.',
             'description' => 'OpenOverlay comes with a bot service that can handle easy and advanced commands. Commands can be simple answers or be handled by a class that has complete access to your whole project.'
         ],
-    ]
+    ],
+
+    'streamers' => [
+        'title' => '<span class="text-gray-900 text-3xl md:text-2xl block" data-aos="fade-up" data-aos-delay="500">Is it working?</span> Examples.',
+        'description' => 'There a few streamers that already using OpenOverlay on there twitch streams.',
+        'events' => [
+            'title' => 'You overlay can change based on',
+            'items' => [
+                'Follows', 'Subscriptions', 'Chat Messages', 'Rewards', 'Raids', 'Hosts', 'Cheers', 'Hype Train', 'Stream Update',
+            ],
+        ],
+    ],
 ];
