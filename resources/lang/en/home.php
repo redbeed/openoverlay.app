@@ -50,4 +50,38 @@ return [
             ],
         ],
     ],
+
+    'good-to-know' => [
+        'title' => '<span class="text-gray-900 text-3xl md:text-2xl block" data-aos="fade-up" data-aos-delay="500">More information?</span> Good to know.',
+        'description' => 'There a few streamers that already using OpenOverlay on there twitch streams.',
+        'blocks' => [
+            'laravel' => [
+                'icon' => 'fab fa-laravel',
+                'title' => 'Laravel',
+                'text' => 'OpenOverlay is build with PHP for your Laravel App. You can integrate OpenOverlay in your exciting project or use our standalone version to start from scratch with some overlay examples.',
+                'links' =>[
+                    [
+                        'text' => 'Laravel Docs',
+                        'url' => 'https://laravel.com/docs/8.x'
+                    ]
+                ]
+            ],
+
+            'websocket' => [
+                'icon' => 'fas fa-plug',
+                'title' => 'Websocket',
+                'text' => 'OpenOverlay forwards all incoming twitch events throw your Laravel App with the help of the Laravel Events system. You can also listen to these events in Javascript with Laravel Echo.',
+                'links' =>[
+                    [
+                        'text' => 'Laravel Echo',
+                        'url' => 'https://laravel.com/docs/8.x/broadcasting#client-pusher-channels'
+                    ],
+                    [
+                        'text' => 'Laravel Websockets',
+                        'url' => 'https://beyondco.de/docs/laravel-websockets/getting-started/introduction'
+                    ],
+                ]
+            ],
+        ]
+    ],
 ];
