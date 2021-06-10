@@ -24,6 +24,9 @@ ____
     ```
    *Laravel Sail is supported on macOS, Linux, and Windows (via WSL2).*
 
+   *Documentations: https://laravel.com/docs/8.x/sail#introduction*
+
+
 5. Generate APP Key
    ```shell 
    ./vendor/bin/sail artisan key:generate
@@ -34,14 +37,14 @@ ____
    ./vendor/bin/sail artisan overlay:secret
    ```
 
-7. Add the secret to your ``.env`` file
-
-8. Migrate Database
+7. Migrate Database
    ```shell 
    ./vendor/bin/sail artisan migrate
    ```
 
-9. Create your account
+8. Create your account
    ```bash 
    http://localhost/register
    ```
+   
+9. Follow steps on your website
