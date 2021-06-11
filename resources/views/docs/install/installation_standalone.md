@@ -30,6 +30,8 @@ ____
     ```
    *Laravel Sail is supported on macOS, Linux, and Windows (via WSL2).*
    *[(Sail Documentation)][sail]*
+   
+   **Make sure before running sail that you installed and started [Docker][docker] and [docker-compose][docker-compose].**
 
 
 6. Generate APP Key
@@ -56,3 +58,5 @@ ____
 
 
 [sail]: https://laravel.com/docs/8.x/sail#introduction
+[docker]: https://docs.docker.com/get-docker/
+[docker-compose]: https://docs.docker.com/compose/install/
