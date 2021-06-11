@@ -5,6 +5,7 @@
 /vendor
 .env.backup
 docker-compose.override.yml
+composer.phar
 
 # Created by https://www.toptal.com/developers/gitignore/api/laravel,phpstorm
 # Edit at https://www.toptal.com/developers/gitignore?templates=laravel,phpstorm
