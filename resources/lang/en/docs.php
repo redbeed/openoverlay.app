@@ -12,6 +12,7 @@ return [
         'bot' => [
             'title' => 'Bot.',
             'add_a_bot' => 'Add a Bot',
+            'add_chat_command' => 'Add a Chat Command'
         ],
 
         'add_twitch_api' => 'Connect to Twitch',

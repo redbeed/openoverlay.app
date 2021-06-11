@@ -10,6 +10,11 @@
     @apply mb-5;
 }
 
+.docs h3 {
+    @apply font-bold;
+    @apply mb-3;
+}
+
 .docs hr {
     @apply mt-4 mb-5;
 }
@@ -36,6 +41,7 @@
 .docs p {
     @apply inline-block;
     @apply mb-2;
+    @apply leading-7;
 }
 
 .docs p + p {
@@ -45,5 +51,16 @@
 
 .docs p + h1,
 .docs p + h2 {
+    @apply mt-10;
+}
+
+.docs p + h3 {
     @apply mt-7;
+}
+
+.docs code:not(.hljs) {
+    @apply inline-block;
+    @apply px-1.5;
+    @apply rounded;
+    @apply text-flamingo-900 bg-white;
 }

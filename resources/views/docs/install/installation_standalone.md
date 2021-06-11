@@ -3,10 +3,9 @@
 Our Standalone Version of OpenOverlay is the easiest and most effective way to deploy your Overlay and Bot Service for your twitch Channel.
 
 The Standalone Version comes with everything you need, like a Websocket and Sail (Docker compose) configuration for a bot container.
-
+____
 
 ## Installation
-
 1. Clone OpenOverlay Standalone
    ```shell
    git clone https://github.com/redbeed/OpenOverlay-Standalone.git
