@@ -21,6 +21,6 @@ jobs:
             git clean -fd
             git reset --hard HEAD
             git pull origin main
-            php74 composer.phar install --ignore-platform-reqs
-            php74 artisan config:clear
-            php74 artisan cache:clear
+            php80 composer.phar install --ignore-platform-reqs
+            php80 artisan config:clear
+            php80 artisan cache:clear
