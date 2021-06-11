@@ -4,6 +4,12 @@
     @apply mb-6;
 }
 
+.docs h2 {
+    @apply text-xl md:text-2xl;
+    @apply font-bold;
+    @apply mb-5;
+}
+
 .docs hr {
     @apply mt-4 mb-5;
 }
@@ -29,9 +35,15 @@
 
 .docs p {
     @apply inline-block;
+    @apply mb-2;
 }
 
 .docs p + p {
     @apply block;
     @apply mt-1;
+}
+
+.docs p + h1,
+.docs p + h2 {
+    @apply mt-7;
 }

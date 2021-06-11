@@ -1,5 +1,12 @@
 # Standalone Installation
-____
+
+Our Standalone Version of OpenOverlay is the easiest and most effective way to deploy your Overlay and Bot Service for your twitch Channel.
+
+The Standalone Version comes with everything you need, like a Websocket and Sail (Docker compose) configuration for a bot container.
+
+
+## Installation
+
 1. Clone OpenOverlay Standalone
    ```shell
    git clone https://github.com/redbeed/OpenOverlay-Standalone.git
@@ -18,33 +25,35 @@ ____
    
 4. Add a custom password for ``DB_PASSWORD=`` and ``DB_ROOT_PASSWORD=`` in the ``.env`` 
 
-4. Start docker/sail
+5. Start docker/sail
     ```shell
     ./vendor/bin/sail up
     ```
    *Laravel Sail is supported on macOS, Linux, and Windows (via WSL2).*
+   *[(Sail Documentation)][sail]*
 
-   *Documentations: https://laravel.com/docs/8.x/sail#introduction*
 
-
-5. Generate APP Key
+6. Generate APP Key
    ```shell 
    ./vendor/bin/sail artisan key:generate
    ```
 
-6. Generate Communication Secret
+7. Generate Twitch Communication Secret
    ```shell 
    ./vendor/bin/sail artisan overlay:secret
    ```
 
-7. Migrate Database
+8. Migrate Database
    ```shell 
    ./vendor/bin/sail artisan migrate
    ```
 
-8. Create your account
+9. Create your account
    ```bash 
    http://localhost/register
    ```
    
-9. Follow steps on your website
+10. Follow steps on your website
+
+
+[sail]: https://laravel.com/docs/8.x/sail#introduction
