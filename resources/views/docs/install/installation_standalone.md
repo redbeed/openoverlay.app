@@ -13,7 +13,7 @@ ____
 2. Run composer install
 
     ```shell 
-    composer install
+    composer install --ignore-platform-reqs
     ```
 
 3. Copy `.env.example` to `.env`
