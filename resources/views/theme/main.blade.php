@@ -21,14 +21,21 @@
     <title>OpenOverlay - @yield('title', 'Self manage Twitch Overlay & Bot')</title>
 </head>
 <body class="bg-gray-50">
+
 @include('theme.components.navbar')
+
 @yield('content')
+
 @include('theme.components.footer')
+
 <script src="{{ asset('/js/app.js') }}"></script>
 
 <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 <noscript>
     <img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" />
 </noscript>
+
+@include('cookie-consent::index')
+
 </body>
 </html>
