@@ -64,3 +64,14 @@
     @apply rounded;
     @apply text-flamingo-900 bg-white;
 }
+
+.docs .heading-permalink {
+    @apply inline-block;
+    @apply pr-1.5;
+    @apply text-flamingo-800;
+    @apply no-underline;
+}
+
+.docs a {
+    @apply underline;
+}

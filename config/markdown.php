@@ -41,7 +41,10 @@ return [
     |
     */
 
-    'extensions' => [],
+    'extensions' => [
+        League\CommonMark\Extension\ExternalLink\ExternalLinkExtension::class,
+        \League\CommonMark\Extension\HeadingPermalink\HeadingPermalinkExtension::class,
+    ],
 
     /*
     |--------------------------------------------------------------------------
@@ -154,5 +157,14 @@ return [
     */
 
     'max_nesting_level' => INF,
+
+    'external_link' => [
+        'open_in_new_window' => true
+    ],
+
+
+    'heading_permalink' => [
+        'symbol' => '#'
+    ]
 
 ];

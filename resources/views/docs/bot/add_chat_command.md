@@ -17,7 +17,7 @@ This command will create a new Class in the `App\Bot\Commands` namespace with th
 sail artisan make:bot-command HelloWorldCommand
 ```
 
-*HelloWorld can be replaced by your wanted Classname*
+*HelloWorld can be replaced by your wanted Class name*
 
 ### Enable the bot command
 
