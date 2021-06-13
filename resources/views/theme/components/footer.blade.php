@@ -5,6 +5,10 @@
                 Made with <i class="fa fa-heart"></i>
             </a>
 
+            <a href="{{ route('docs', ['docFile' => 'install/installation_standalone']) }}">
+                Docs.
+            </a>
+
             <a href="https://www.redbeed.com/imprint" target="redbeed">
                 Imprint.
             </a>

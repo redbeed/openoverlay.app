@@ -10,21 +10,26 @@ ____
    ```shell
    git clone https://github.com/redbeed/OpenOverlay-Standalone.git
    ```
-2. Run composer install
+1. Run composer install
 
     ```shell 
     composer install --ignore-platform-reqs
     ```
 
-3. Copy `.env.example` to `.env`
+1. Copy `.env.example` to `.env`
 
     ```shell 
     cp .env.example .env
     ```
    
-4. Add a custom password for ``DB_PASSWORD=`` and ``DB_ROOT_PASSWORD=`` in the ``.env`` 
+1. Fill `PUSHER_APP_SECRET` with a random secret hash, in your generated `.env` file.
+   
+    _You also could change `PUSHER_APP_KEY` and `PUSHER_APP_ID`._
 
-5. Start docker/sail
+   
+1. Add a custom password for ``DB_PASSWORD=`` and ``DB_ROOT_PASSWORD=`` in the ``.env`` 
+
+1. Start docker/sail
     ```shell
     ./vendor/bin/sail up
     ```
@@ -34,22 +39,22 @@ ____
    **Make sure before running sail that you installed and started [Docker][docker] and [docker-compose][docker-compose].**
 
 
-6. Generate APP Key
+1. Generate APP Key
    ```shell 
    ./vendor/bin/sail artisan key:generate
    ```
 
-7. Generate Twitch Communication Secret
+1. Generate Twitch Communication Secret
    ```shell 
    ./vendor/bin/sail artisan overlay:secret
    ```
 
-8. Migrate Database
+1. Migrate Database
    ```shell 
    ./vendor/bin/sail artisan migrate
    ```
 
-9. Create your account
+1. Create your account
    ```bash 
    http://localhost/register
    ```
